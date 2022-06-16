@@ -1,1 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2D3A3A;
+    height: 30vh;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 250px;
+    margin-right: 100px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
 
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    color: #fff;
+    font-size: 30px;
+}
