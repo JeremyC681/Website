@@ -44,15 +44,17 @@ nav{
     text-decoration: none;
     font-size: 15px;
 }
-.text-box{
-    width: 90%;
-    color: #000;
+table{
+    width: 25%;
+    height: 60%;
+    background-color: #248323;
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 65%;
+    left: 25%;
     transform: translate(-50%,-50%);
     text-align: center;
-    
+    font-size: 26px;
+    border: 2px solid black;
 }
 .title{
     width: 90%;
@@ -63,4 +65,16 @@ nav{
     left: 40%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+.text-box{
+    width: 20%;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    right: 20%;
+    top: 90%;
+    transform: translate(20%,-80%);
+    text-align: center;
+    border: 1px solid black;
+    padding: 22px 50px;
 }
