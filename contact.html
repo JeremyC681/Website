@@ -2,59 +2,60 @@
 <html>
 <head>
     <meta name="viewpoint" content="with-device-width, initial-scale=1.0">
-    <title> Recipes Page </title>
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <title> Contact Us Page </title>
+    <link rel="stylesheet" type="text/css" href="css/recipes.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+
+    <div class="searchbar">
+        <input type="text" placeholder="Search..">
+        <div style ="position: fixed; left:80px; top:20px;"></div>
+        </div>
     <div class="topnav">
-        <h1 class="header">Title of Website</h1>
+        <h1 class="header">Contact Us</h1>
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <input type="text" placeholder="Search..">
+            <a href="index.html"><img src="imgs/food-logo-design.gif"></a>
+        </nav>
             <div class="nav-links-1">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Homepage</a></li>
                     <li><a href="health.html">Health</a></li>
+                    <li><a href="recipepage.html">Recipes</a></li>
+                    
                     <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">About <img src="imgs/info icon Transparent.gif"></a></li> 
+                    <li><a href="language.html">Language <img src="imgs/Globe_icon_2.gif"></a></li>
                 </ul>
-            </div>
-            <div class="nav-links-2">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Language</a></li>
-                </ul>
-            </div>
-        </nav>
     </div>
-    
-    </body>
 
 
+<section class="bottomnav"> </section> 
 
-<div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
-  </div>
-
+    <div class="container">
+        <div style="text-align:center">
+        </div>
+        <div class="row">
+          <div class="column">
+            
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
 </body>
