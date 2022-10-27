@@ -55,13 +55,15 @@ nav img{
 }
 
 .header{
-    color:white;
-    font-size: 60px;
     position: absolute;
-    text-decoration: underline;
-    margin-top: 100px;
-    right: 280px;
+    left:50%;
+    top: 50%;
+    width; 90%;
+    max-width: 900px;
+    transform: translate (-50%, -50%);
     text-align: center;
+    color: #fff;
+    
 }
 .nav-links-1{
     display: fixed;
@@ -96,7 +98,7 @@ nav img{
 }
 
 section{
-    height:500px;
+    height:1000px;
     width: 100%;
 }
 table{
