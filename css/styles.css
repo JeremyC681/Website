@@ -199,14 +199,14 @@ a :hover{
     right: 5%;
     position: absolute;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .food-image{   
     top: 102%;
     right: 4%;
     position: absolute;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .food-image img{  
     height: 450px;
