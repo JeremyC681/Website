@@ -103,11 +103,10 @@ nav img{
 }
 
 .image-2{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 40%;
 }
 
 .text-box-1{
