@@ -1,17 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 nav{
     background-color: #2D3A3A;
     width: 100%;
-    height: 200px;
+    height: 300px;
+    display: fixed;
     align-items: center;
+    padding-bottom: 20px;
 }
 nav img{
-    width: 250px;
-    margin-left: 100px;
+    width: 300px;
+    border: 20px;
 } 
 /* Search Bar and Nav*/
 .searchbar a {
@@ -50,15 +51,6 @@ nav img{
     border: 1px solid #ccc;
     }
 }
-.header{
-    color:white;
-    font-size: 60px;
-    position: absolute;
-    text-decoration: underline;
-    margin-top: 80px;
-    right: 580px;
-    text-align: center;
-}
 .nav-links-1{
     display: fixed;
     align-items: center;
@@ -73,10 +65,10 @@ nav img{
 }
 .nav-links-1 a{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 20px;
-    padding-right: 35px;
-    padding-left: 95px;
+    padding-right: 40px;
+    padding-left: 100px;
     max-width: auto;
     text-align: center
 }
@@ -90,62 +82,117 @@ nav img{
     width: 100%;
     height: 5px;
 }
-.gap{
-    height: 120px;
-    width: auto;
-}
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+
+table{
+    width: 400px;
+    height: 640px;
+    background-color: #248323;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    text-align: center;
+    font-size: 26px;
+    border: 3px solid black;
+    
+}
+table {
+    border-collapse: collapse;
   }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 700px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    text-decoration: dotted;
+
+  /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext {
+    top: -5px;
+    left: 105%;
+}
+a  {
+    text-decoration: none;
   }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+a :hover{
+    color: white;
+}
+
+.header{
+    color:white;
+    font-size: 60px;
+    position: absolute;
+    text-decoration: underline;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box{
+    width: 548px;
+    height: 180px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    right: 14%;
+    top: 184%;
+    position: absolute;
+    text-align: center;
+    border: 1px solid black;
+}
+.background-textbox{
+    width: 548px;
+    height: 180px;
+    background-color: #248323;
+    position: absolute;
+    right: 15%;
+    top: 182%;
+    position: absolute;
+    text-align: center;
+    border: 1px solid black;
+}
+.background-image{
+    height: 450px;
+    width: 680px;
+    background-color: #248323;
+    top: 100%;
+    right: 5%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid black;
+}
+.food-image{   
+    top: 102%;
+    right: 4%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid black;
+}
+.food-image img{  
+    height: 450px;
+    width: 680px;
+}
+footer{
+    width: auto;
+    height: 50px;
+    background-color: #2D3A3A;
+}
