@@ -98,24 +98,33 @@ nav img{
     height: 5px;
 }
 
+
+.main-body{
+    width: 100%;
+    height: 120vh;
+}
+
+
 table{
-    width: 400px;
-    height: 640px;
+    width: 27%;
+    height: 90vh;
     background-color: #248323;
     color: white;
     position: absolute;
     text-decoration: underline;
-    margin-top: 225px;
     left: 7%;
     text-align: center;
     font-size: 26px;
     border: 3px solid black;
-    
 }
 td{
     border: 1px solid black;
     border-radius: 3px;
     padding: 5px;
+}
+td a{
+    text-decoration: underline;
+    color: #292929;
 }
   
 td:hover {
@@ -165,48 +174,63 @@ a :hover{
     color: white;
 }
 
-.text-box{
-    width: 548px;
-    height: 180px;
+.mainimage{
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.maintext{
     background-color: white;
     color: black;
     font-size: 18px;
     font-family: 'Libre Franklin', sans-serif;
-    position: absolute;
-    right: 14%;
-    top: 184%;
-    position: absolute;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: 7%;
+    margin-top: 40px;
+    width: 47%;
     text-align: center;
-    border: 1px solid black;
+    margin-bottom: 20px;
 }
-.background-textbox{
-    width: 548px;
-    height: 180px;
-    background-color: #248323;
-    position: absolute;
-    right: 15%;
-    top: 182%;
-    position: absolute;
+
+ 
+.bottom{
+    background-color: #B9CACA;
+    width: 100%;
+    height: 8px;
+}
+footer{
+    background-color: #3E5151;
+    height: 16vh;
+    display: block;
     text-align: center;
-    border: 1px solid black;
 }
-.background-image{
-    height: 450px;
-    width: 680px;
-    background-color: #248323;
-    top: 100%;
-    right: 5%;
-    position: absolute;
+footer ul li{
+    display: inline-block;
+    position: relative;
+}
+
+footer a{
     text-align: center;
-    border: 1px solid black;
+    font-size: 20px;
+    padding: 8px;
+    height: 5px;
+    width: 100%;
 }
-.food-image{ 
-    margin-top: 18%;
-    right: 4%;
-    position: absolute;
-    border: 1px solid black;
+.contact{
+    text-align: left;
+    padding-left: 15px;
 }
-.food-image img{  
-    height: 450px;
-    width: 680px;
+.contact a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: #cccccc;
 }
