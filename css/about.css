@@ -108,7 +108,7 @@ nav img{
 .part{
     display: flex;
     padding: 30px;
-    width: 100%;
+    width: 90%;
 }
 .text-box-2{
     color: black;
@@ -129,7 +129,6 @@ nav img{
 }
 .separater1{
     background-color:#2D3A3A;
-    width: 100%;
     height: 5px;
     border-radius: 8px;
     display: block;
@@ -140,7 +139,6 @@ nav img{
 }
 .separater2{
     background-color:#2D3A3A;
-    width: 100%;
     height: 5px;
     border-radius: 8px;
     display: block;
@@ -178,17 +176,4 @@ footer a{
     padding: 8px;
     height: 5px;
     width: 100%;
-}
-.contact{
-    text-align: left;
-    padding: 15px;
-
-}
-.contact a{
-    color: #fff;
-    text-decoration: none;
-}
-.contact a:hover{
-    text-decoration: underline;
-    color: #cccccc;
 }
