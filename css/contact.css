@@ -146,53 +146,49 @@ a :hover{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box{
-    width: 548px;
-    height: 180px;
-    background-color: white;
-    color: black;
-    font-size: 18px;
-    position: absolute;
-    right: 14%;
-    top: 184%;
-    position: absolute;
-    text-align: center;
-    border: 1px solid black;
-}
-.background-textbox{
-    width: 548px;
-    height: 180px;
-    background-color: #248323;
-    position: absolute;
-    right: 15%;
-    top: 182%;
-    position: absolute;
-    text-align: center;
-    border: 1px solid black;
-}
-.background-image{
-    height: 450px;
-    width: 680px;
-    background-color: #248323;
-    top: 100%;
-    right: 5%;
-    position: absolute;
-    text-align: center;
-    border: 2px solid black;
-}
-.food-image{   
-    top: 102%;
-    right: 4%;
-    position: absolute;
-    text-align: center;
-    border: 2px solid black;
-}
-.food-image img{  
-    height: 450px;
-    width: 680px;
+.mainpage{
+    height: 46vh;
+    width: 100%;
+
 }
 footer{
     width: auto;
     height: 50px;
     background-color: #2D3A3A;
+}
+.bottom{
+    background-color: #B9CACA;
+    width: 100%;
+    height: 8px;
+}
+footer{
+    background-color: #3E5151;
+    height: 14vh;
+    display: block;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    position: relative;
+}
+
+footer a{
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    height: 5px;
+    width: 100%;
+}
+.contact{
+    text-align: left;
+    padding: 15px;
+
+}
+.contact a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: #cccccc;
 }
